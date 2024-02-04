@@ -35,11 +35,7 @@ body {
     border: var(--highlight-color);
     border-radius: 2px;
 }
-.container-fluid{
-    background-color: var(--main-bg-color);
-    padding-top: 10px;
-    
-}
+
 
 .container{
     background-color: var(--main-bg-color);
@@ -47,7 +43,7 @@ body {
     padding-left: 0;
     padding-right: 0;
     color: white;
-    
+   
 }
 .main_div{
     padding: 30px;
@@ -72,41 +68,125 @@ body {
 }
 .name{
     color: var(--text-color);
-    margin-bottom: 7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .year{
     background: var(--main-bg-color);
     border-radius: 15px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 p {
     color: var(--text-color);
     font-size: 15px;
     line-height: 1.6;
 }
-.seperator{
-    color: var(--highlight-color);
-    margin-top: 12%;
-    margin-bottom: 15%;
-}
+
 .w-i-m-row-item{
     background-color: var(--main-bg-color);
     border-radius: 25px;
 }
-@media only screen and (max-width: 780px) {
-    .seperator {
-      visibility: hidden;
-      margin-top: 0;
-      margin-bottom: 0;
-      max-height: 0;
-      max-width: 0;
-    }
+
+.container-fluid{
+    background-color: var(--main-bg-color);
+    padding-top: 10px;
+    
+
+@media only screen and (max-width: 1200px) {
+ 
     .contact_details{
         visibility: hidden;
         max-height: 0;
         max-width: 0;
-       
     }
     .social_icon{
         visibility: hidden;
     }
+
+    .container-fluid{
+        width: 85%;
+    }
+
+    .logo{
+        margin-right: 20px;
+    }
+    .image {
+        margin-left: 2%;
+        margin-bottom: 3%;
+        margin-right: 5%;
+        margin-top: 3%;
+    }
+    .name{
+        font-size: 15px;
+    }
+    .main_div{
+        width:100%;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+    .contact_details{
+        visibility: hidden;
+        max-height: 0;
+        max-width: 0;
+    }
+    .social_icon{
+        visibility: hidden;
+    }
+
+    .container-fluid{
+        width: 80%;
+    }
+
+    .logo{
+        visibility: hidden;
+    }
+    .image {
+        margin-left: 2%;
+        margin-bottom: 3%;
+        margin-right: 5%;
+        margin-top: 3%;
+    }
+    .name{
+        font-size: 12px;
+    }
+    .main_div{
+        width:100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .contact_details{
+        visibility: hidden;
+        max-height: 0;
+        max-width: 0;
+    }
+    .social_icon{
+        visibility: hidden;
+    }
+
+    .container-fluid{
+        width: 80%;
+    }
+
+    .logo{
+        visibility: hidden;
+    }
+    .image {
+        margin-left: 2%;
+        margin-bottom: 3%;
+        margin-right: 5%;
+        margin-top: 3%;
+    }
+    .name{
+        font-size: 15px;
+    }
+    .main_div{
+        width:100%;
+    }
+}
 }
