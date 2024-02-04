@@ -54,9 +54,11 @@ body {
     background-color: var(--dark-bg-color);
     height: 100%;
     border-radius: 25px;
+    position: sticky;
+    top: 50px;
 }
 .image {
-    margin-top: 60px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,6 +125,9 @@ p {
     .main_div{
         width:100%;
     }
+    .sidebar{
+        position: static;
+    }
     
 }
 
@@ -156,6 +161,9 @@ p {
     .main_div{
         width:100%;
     }
+    .sidebar{
+        position: static;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -187,5 +195,8 @@ p {
     }
     .main_div{
         width:100%;
+    }
+    .sidebar{
+        position: static;
     }
 }
