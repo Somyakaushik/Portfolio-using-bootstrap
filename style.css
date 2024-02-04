@@ -1,0 +1,112 @@
+:root {
+    --main-bg-color: #172937;
+    --text-color: white;
+    --highlight-color: rgb(255, 175, 36);
+    --gray-color: grey;
+    --dark-bg-color: #253644;
+    --border-radius: 15px;
+    --image-background: white;
+    --list-heading: grey;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--text-color);
+}
+body {
+    background-color: var(--main-bg-color);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.secondary-text{
+    color: var(--text-color);
+}
+.h2_heading {
+    margin-top: 5%;
+}
+.line {
+    width: 5%;
+    height: 5px;
+    background-color: var(--highlight-color);
+    border: var(--highlight-color);
+    border-radius: 2px;
+}
+.container-fluid{
+    background-color: var(--main-bg-color);
+    padding-top: 10px;
+    
+}
+
+.container{
+    background-color: var(--main-bg-color);
+    margin-top: 70px;
+    padding-left: 0;
+    padding-right: 0;
+    color: white;
+    
+}
+.main_div{
+    padding: 30px;
+    background-color: var(--dark-bg-color);
+    border-radius: 25px;
+}
+.sidebar{
+    background-color: var(--dark-bg-color);
+    height: 100%;
+    border-radius: 25px;
+}
+.image {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--image-background);
+    border-radius: 25px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 5px;
+}
+.name{
+    color: var(--text-color);
+    margin-bottom: 7%;
+}
+.year{
+    background: var(--main-bg-color);
+    border-radius: 15px;
+}
+p {
+    color: var(--text-color);
+    font-size: 15px;
+    line-height: 1.6;
+}
+.seperator{
+    color: var(--highlight-color);
+    margin-top: 12%;
+    margin-bottom: 15%;
+}
+.w-i-m-row-item{
+    background-color: var(--main-bg-color);
+    border-radius: 25px;
+}
+@media only screen and (max-width: 780px) {
+    .seperator {
+      visibility: hidden;
+      margin-top: 0;
+      margin-bottom: 0;
+      max-height: 0;
+      max-width: 0;
+    }
+    .contact_details{
+        visibility: hidden;
+        max-height: 0;
+        max-width: 0;
+       
+    }
+    .social_icon{
+        visibility: hidden;
+    }
+}
