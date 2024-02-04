@@ -92,8 +92,8 @@ p {
     background-color: var(--main-bg-color);
     padding-top: 10px;
     
-
-@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
  
     .contact_details{
         visibility: hidden;
@@ -188,5 +188,4 @@ p {
     .main_div{
         width:100%;
     }
-}
 }
